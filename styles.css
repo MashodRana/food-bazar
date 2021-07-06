@@ -81,3 +81,71 @@ p{
     margin: 15% 0 0 20%;
 }
 
+.recipies-section{
+    margin-top:60px;
+    height: 730px;
+}
+
+.recipies-head{
+    /* border-style: solid;
+    border-color: red; */
+    margin:auto;
+    width:50%;
+    text-align: center;
+}
+.recipies-head h1{
+    font-size:36px;
+    font-weight: 700;
+    color: #676767;
+}
+.recipies-head p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.recipies-list{
+    display: flex;
+    /* padding-left: 50px; */
+    
+}
+
+.card{
+    margin:2%;
+    padding: 20px;
+    height: 520px;
+    width:26%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    float: left;
+}
+
+.card-image{
+    width: 100%;
+    height: 256px;
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.card-body{
+    margin-top:40px;
+    height: 178px;
+    color:#18191F;
+}
+.card-body p{
+    height: 125px;
+    overflow: hidden;
+    white-space:pre-line;
+    text-overflow: ellipsis;
+    font-size:18px;
+    
+}
+.card-body h1{
+    font-size:28px;
+    font-weight: 800;
+}
+
+
