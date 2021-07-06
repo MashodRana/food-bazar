@@ -3,9 +3,41 @@
     padding:0;
 }
 
+.nav-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-image: linear-gradient(#FBA24F, #FF1E1E);
+  }
+  
+.nav-section li {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* margin-top: 3px; */
+  }
+  
+  .nav-section li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-section li a:hover {
+      background-color: #ffbc9c;
+      color: rgba(0, 0, 0, 0.87);
+  }
+
 .container{
     display: flex;
 }
+
 
 .intro{
     margin-top: 8%;
