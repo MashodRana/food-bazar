@@ -3,6 +3,10 @@
     padding:0;
 }
 
+body{
+    font-family: 'Montserrat';
+}
+
 .nav-section ul {
     list-style-type: none;
     margin: 0;
@@ -119,8 +123,7 @@ p{
 }
 
 .recipies-head{
-    /* border-style: solid;
-    border-color: red; */
+    
     margin:auto;
     width:50%;
     text-align: center;
